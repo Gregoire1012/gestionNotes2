@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: #f4f6f9;
+    font-family: Arial;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #2c3e50;
+    color: white;
+}
+
+.sidebar h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #34495e;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.header {
+    background: white;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
